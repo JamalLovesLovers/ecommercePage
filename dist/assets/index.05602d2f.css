@@ -1,0 +1,277 @@
+@import"https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap";
+
+.mainNav {
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    font-weight: 400;
+    margin: 2rem 9rem 0rem 8rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid hsl(0, 2%, 75%)
+}
+
+.item {
+    position: absolute;
+    top: 10px;
+    background-color: orange;
+    width: 20px;
+    color: #000;
+    text-align: center;
+    border-radius: 100%;
+    right: 261px
+}
+
+.cart {
+    align-self: center;
+    cursor: pointer
+}
+
+.logo {
+    width: 3rem;
+    cursor: pointer
+}
+
+.profile {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 3rem;
+    justify-content: flex-end;
+    align-items: center
+}
+
+.elements {
+    color: #b6bcc8;
+    display: flex;
+    gap: 2rem;
+    margin-left: 2rem
+}
+
+.elements>div:hover {
+    cursor: pointer
+}
+
+.cartContainera {
+    width: 20vw;
+    height: min-content;
+    border-radius: 8px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    z-index: 50;
+    background: white;
+    box-shadow: #b6bcc8 -5px 5px 20px;
+    display: block
+}
+
+.cart {
+    margin-left: 1rem
+}
+
+.line {
+    width: 100%;
+    border: 1px solid rgb(240, 239, 239);
+    background-color: #f0efef
+}
+
+.cartStatus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%
+}
+
+.checkout {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.preview {
+    width: 20%;
+    border-radius: .7rem;
+    left: 10px
+}
+
+.itemName {
+    justify-self: center
+}
+
+.checkoutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.endPrice {
+    color: gray;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 2rem;
+    margin-bottom: 1rem
+}
+
+.money {
+    color: orange;
+    margin-left: 15px
+}
+
+.dustbin {
+    padding: 5px;
+    cursor: pointer
+}
+
+.finish {
+    cursor: pointer;
+    width: 15rem;
+    font-weight: 700;
+    background-color: #ff7d1a;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    fill: #fff;
+    margin-bottom: 1rem
+}
+
+.thumbnail {
+    width: 70px;
+    height: min-content;
+    border-radius: 10%;
+    transition: .2s ease-in-out
+}
+
+.thumbnail:hover {
+    opacity: .3;
+    cursor: pointer
+}
+
+.clicked {
+    border: 2px solid red;
+    opacity: .3
+}
+
+.unClicked {
+    border: 0px
+}
+
+.mainImg {
+    width: 330px;
+    border-radius: 3%
+}
+
+.image {
+    display: flex;
+    gap: 3rem;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    margin-left: 12rem;
+    margin-top: 3rem;
+    flex-direction: column
+}
+
+.options,
+.buy {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem
+}
+
+.container {
+    display: flex;
+    gap: 8rem;
+    margin-top: -2.5rem;
+    flex-wrap: wrap
+}
+
+.information {
+    width: 28%;
+    margin-top: 6rem
+}
+
+.priceContainer {
+    display: flex;
+    gap: .65rem;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 0;
+    height: 15%;
+}
+
+.sale {
+    background-color: #ffede0;
+    color: #ff7d1a;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.description {
+    color: #6f737b;
+    margin-bottom: 0
+}
+
+.product {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 3%
+}
+
+.sneaker {
+    color: #ff7d1a;
+    font-size: 10.72px;
+    font-weight: 700;
+    margin-bottom: 5px
+}
+
+.prevPrice {
+    text-decoration: line-through;
+    color: #b6bcc8;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+.price {
+    margin-bottom: .2rem
+}
+
+.addCart {
+    cursor: pointer;
+    width: 15rem;
+    background-color: #ff7d1a;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    fill: #fff
+}
+
+.carta {
+    display: flex
+}
+
+.add {
+    display: flex;
+    height: min-content;
+    align-items: center;
+    background-color: #f8f5f5;
+    border-radius: 7px
+}
+
+body,
+html {
+    font-family: Kumbh Sans, sans-serif
+}
+
+*,
+*:after,
+* *:before {
+    margin: -1px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
